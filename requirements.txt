@@ -16,3 +16,4 @@ omegaconf
 tqdm
 SentencePiece
 accelerate
+open3d
