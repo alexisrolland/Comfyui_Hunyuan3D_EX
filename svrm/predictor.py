@@ -31,7 +31,6 @@ from omegaconf import OmegaConf
 from torchvision import transforms
 from safetensors.torch import save_file, load_file
 from .ldm.util import instantiate_from_config
-from .ldm.vis_util import render
 
 
 class MV23DPredictor(object):

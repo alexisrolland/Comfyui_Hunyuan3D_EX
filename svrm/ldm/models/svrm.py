@@ -39,7 +39,6 @@ from ..modules.rendering_neus.rasterize import NVDiffRasterizerContext
 
 from ..utils.ops import scale_tensor
 from ..util import count_params, instantiate_from_config
-from ..vis_util import render
 
 
 class SVRMModel(torch.nn.Module):
