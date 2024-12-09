@@ -180,7 +180,7 @@ class GenerateSixViews:
         return {
             "required": {
                 "rgba": ("IMAGE",),
-                "seed": ("INT", {"default": 0}),
+                "seed": ("INT", {"default": 0, "min": 0, "max": 0xFFFFFFFFFFFFFFFF}),
                 "step": ("INT", {"default": 50}),
                 "use_lite": ("BOOLEAN", {"default": False}),
             }
@@ -223,7 +223,7 @@ class Hunyuan3DNode:
             "required": {
                 "sixImages": ("IMAGE",),
                 "originalImage": ("IMAGE",),
-                "seed": ("INT", {"default": 0}),
+                "seed": ("INT", {"default": 0, "min": 0, "max": 0xFFFFFFFFFFFFFFFF}),
                 "mesh_size": (
                     "INT",
                     {
