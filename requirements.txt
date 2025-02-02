@@ -17,3 +17,4 @@ tqdm
 SentencePiece
 accelerate
 open3d
+onnxruntime
